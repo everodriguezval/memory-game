@@ -174,7 +174,7 @@ div h2 {
 
 
 /* --------------- Responsive --------------------- */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 729.9px) {
 
     #intro {
         max-width: 90%;
@@ -219,7 +219,7 @@ div h2 {
 
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 730px) {
     body {
         font-size: 1rem;
     }
@@ -252,11 +252,14 @@ div h2 {
 @media screen and (min-width: 1312px) {
     section {
         display: grid;
-        grid-template-columns: repeat(4, 10rem);
-        grid-template-rows: repeat(4, 10rem);
-        gap: 1.5rem;
-        perspective: 800px;
+        grid-template-columns: repeat(4, 8rem);
+        grid-template-rows: repeat(4, 8rem);
+        gap: 1rem;
         /* Defining the perspective property for an element, CHILD elements that get the perspective view*/
+    }
+
+    #myGame h1 {
+        font-size: 1.5rem;
     }
 
     #intro {
