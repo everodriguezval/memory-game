@@ -174,7 +174,7 @@ div h2 {
 
 
 /* --------------- Responsive --------------------- */
-@media screen and (max-width: 729.9px) {
+@media screen and (max-width: 43em) {
 
     #intro {
         max-width: 90%;
@@ -219,7 +219,7 @@ div h2 {
 
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 44em) {
     body {
         font-size: 1rem;
     }
@@ -249,7 +249,7 @@ div h2 {
     }
 }
 
-@media screen and (min-width: 1312px) {
+@media screen and (min-width: 70em) {
     section {
         display: grid;
         grid-template-columns: repeat(4, 8rem);
