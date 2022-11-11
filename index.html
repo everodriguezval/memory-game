@@ -23,47 +23,49 @@
     <title>Memory Game</title>
   </head>
   <body>
-    <div id="intro">
-      <h1 class="title">Welcome to UK Animal Memory Game!</h1>
-      <p>
-        Playing memory games can improve brain functions, such as attention and
-        concentration. Memory games give space to critical thinking and that
-        helps children nurture their attention to detail.
-      </p>
-      <p>
-        In this Memory game you will be matching incredible animals. You will
-        have seven lives to match them all, so good luck and most importantly
-        enjoy!
-      </p>
-      <div id="modal-img">
-        <img src="./images/redsquirrel.jpg" alt="redsquirrel" />
-        <img src="./images/moth.jpg" alt="moth" />
-        <img src="./images/robin.jpg" alt="robin" />
+    <div class="wrap-container">
+      <div id="intro">
+        <h1 class="title">Welcome to UK Animal Memory Game!</h1>
+        <p>
+          Playing memory games can improve brain functions, such as attention
+          and concentration. Memory games give space to critical thinking and
+          that helps children nurture their attention to detail.
+        </p>
+        <p>
+          In this Memory game you will be matching incredible animals. You will
+          have seven lives to match them all, so good luck and most importantly
+          enjoy!
+        </p>
+        <div id="modal-img">
+          <img src="./images/redsquirrel.jpg" alt="redsquirrel" />
+          <img src="./images/moth.jpg" alt="moth" />
+          <img src="./images/robin.jpg" alt="robin" />
+        </div>
+        <button type="button" id="btn-play" onclick="startGame()">
+          READY TO PLAY?
+        </button>
       </div>
-      <button type="button" id="btn-play" onclick="startGame()">
-        READY TO PLAY?
-      </button>
-    </div>
 
-    <!-- Memory game  -->
-    <div id="myGame">
-      <h1>
-        <i class="fa-solid fa-heart"></i>Lives:
-        <span class="playerLivesCount"></span>
-      </h1>
-      <section></section>
-      <button id="music-btn">Fancy some ambience?</button>
-    </div>
-    <!-- Game Over screen -->
-    <div id="gameOver-container">
-      <h2>Game Over</h2>
-      <button id="tryAgainBtn">TRY AGAIN</button>
-    </div>
+      <!-- Memory game  -->
+      <div id="myGame">
+        <h1>
+          <i class="fa-solid fa-heart"></i>Lives:
+          <span class="playerLivesCount"></span>
+        </h1>
+        <section></section>
+        <button id="music-btn">Fancy some ambience?</button>
+      </div>
+      <!-- Game Over screen -->
+      <div id="gameOver-container">
+        <h2>Game Over</h2>
+        <button id="tryAgainBtn">TRY AGAIN</button>
+      </div>
 
-    <!-- Win the game screen -->
-    <div id="winner-container">
-      <h2>Congrats! You won the game</h2>
-      <button id="playAgainBtn">PLAY AGAIN</button>
+      <!-- Win the game screen -->
+      <div id="winner-container">
+        <h2>Congrats! You won the game</h2>
+        <button id="playAgainBtn">PLAY AGAIN</button>
+      </div>
     </div>
     <script src="./memoryGame.js"></script>
   </body>

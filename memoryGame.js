@@ -215,7 +215,7 @@ function playStop() {
 tryAgainBtn.addEventListener("click", restart);
 
 function gameOver() {
-  gameOverContainer.style.display = "flex";
+  gameOverContainer.style.display = "block";
   myGame.style.display = "none";
   if (audio.played) {
     audio.pause();
